@@ -7,7 +7,7 @@ This sort of thing is suitable for plugins that:
 1. are for commercial paid plugins only, or
 1. would not be accepted in the WordPress Plugin Directory due to licensing conflicts or another issue.
 
-This came out of a necessity at Neutrino, Inc. for this functionality and a presentation at WordCamp Orange County 2018, which you can find slides and information from here: 
+This came out of a necessity at Neutrino, Inc. for this functionality and a presentation at WordCamp Orange County 2018, which you can find slides and information from here: [github.com/karikas/wcoc-off-grid-plugins](https://github.com/karikas/wcoc-off-grid-plugins).
 
 ## Installation
 
