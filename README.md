@@ -21,7 +21,7 @@ To setup and configure the server:
 1. Upload any visual assets like banners, icons, and screenshots into the `assets` folder.
 
 #### Plugin Files
-Your plugin must be packaged as if you were going to upload it to the WordPress Plugin Repository.  That means having valid information in the [plugin header](https://developer.wordpress.org/plugins/the-basics/header-requirements/) and a valid []readme.txt file](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/). 
+Your plugin must be packaged as if you were going to upload it to the WordPress Plugin Repository.  That means having valid information in the [plugin header](https://developer.wordpress.org/plugins/the-basics/header-requirements/) and a valid [readme.txt file](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/). 
 
 Your plugin files must be zipped as a folder "the WordPress way", and the zip file must reflect the version number.  Example, say you have a plugin called `arrmatey` and you have versions 1.0.0, 1.1.0 and 1.2.0.  You would have three files:
 ````
@@ -49,4 +49,4 @@ $PluginUpdater->run();
 Note that the third argument, the plugin slug name, should match WordPress' plugin slug format, which looks like `arrmatey/arrmatey.php`.
 
 ## Credits
-Written by [Mike Karikas](https://github.com/karikas) of [Neutrino, Inc.](https://www.neutrinoinc.com), but originally based on code from [Misha Rudrastyh]()https://rudrastyh.com/wordpress/self-hosted-plugin-update.html).
+Written by [Mike Karikas](https://github.com/karikas) of [Neutrino, Inc.](https://www.neutrinoinc.com), but originally based on code from [Misha Rudrastyh](https://rudrastyh.com/wordpress/self-hosted-plugin-update.html).
