@@ -51,12 +51,12 @@ class MRT_OffGrid_Plugin_Updater {
 
 		// Do nothing if this is not about getting plugin information
 		if ( $action !== 'plugin_information' ) {
-			return false;
+			return $res;
 		}
 
 		// Do nothing if it is not our plugin
 		if ( dirname( $this->plugin_name ) !== $args->slug ) {
-			return false;
+			return $res;
 		}
 
 		// Try to get from cache first
